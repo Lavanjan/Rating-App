@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "RatingApp",
+    "name": "Berry Hotel",
     "slug": "RatingApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,14 +9,12 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#011F4B"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -24,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.lavanjan.RatingApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "263f60b7-bb6b-49ad-ad68-3006b7b50f94"
+      }
     }
   }
 }
